@@ -362,6 +362,10 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 }
+.pb_options ul {
+	margin: 0;
+	padding: 0 20px;
+}
 .pb_options li {
 	border-bottom: 1px solid #f5f5f5;
 	list-style: none;
