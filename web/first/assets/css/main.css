@@ -218,6 +218,7 @@ header {
 	box-shadow: 0px 4px 15px 2px #5252524d;
 }
 .features__button {
+	box-shadow: 0px 1px 4px 0px #00000057;
 	background-color: #ff8b38;
 	border-radius: 3px;
 	display: inline-flex;
@@ -365,4 +366,101 @@ header {
 	border-bottom: 1px solid #f5f5f5;
 	list-style: none;
 	padding: 10px;
+}
+/* customers */
+.customers {
+	padding: 100px;
+}
+.customers__description {
+	text-align: center;
+	margin-bottom: 100px;
+}
+.customers__msg {
+	color: #86878b;
+	background-color: #f5f5f5;
+	padding: 15px;
+	border-radius: 6px;
+	margin-bottom: 25px;
+}
+.customers__people {
+	margin: 0 50px;
+}
+.customers__avatar {
+	border-radius: 50px;
+	margin-right: 20px;
+}
+.customers__author {
+	display: flex;
+	align-items: center;
+}
+.customers__list {
+	display: flex;
+}
+/* stylish */
+/* ! TODO delete */
+.stylish {
+	padding: 50px;
+	text-align: center;
+	color: #fff;
+	height: 320px;
+	background: 100vw / 320px url(http://placehold.it/320x320);
+}
+.stylish__title {
+	font-size: 36px;
+}
+.stylish__subtitle {
+	font-size: 16px;
+}
+.stylish__title-button {
+	margin: 50px auto;
+}
+/* contact */
+.contact {
+	padding: 100px 200px;
+	display: block;
+}
+.contact__form {
+	display: grid;
+	grid-gap: 50px;
+	grid-template: 1fr 50px / 1fr 1fr;
+}
+.contact__form button {
+	display: block;
+	grid-column: 1 / -1;
+	margin: 0px 40%;
+	height: 50px;
+}
+.contact__form input, textarea {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	border-bottom: 1px solid #d6d6d6;
+}
+.contact__inputs {
+	display: flex;
+	flex-direction: column;;
+}
+.contact__inputs input {
+	height: 35px;
+	margin-top: 32px;
+	width: 100%;
+}
+.contact__button {
+	border: none;
+}
+.contact__form-textarea {
+	resize: vertical;
+	max-height: 500px;
+	min-height: 200px;
+}
+
+/* footer */
+footer {
+	color: #595959;
+	background-color: #000;
+	text-align: center;
+	padding: 25px 0 10px 0;
+}
+footer .social__links {
+	margin: 0 auto;
+	display: block;
 }

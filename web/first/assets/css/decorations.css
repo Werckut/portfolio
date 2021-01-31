@@ -17,6 +17,12 @@
 	margin: 20px auto;
 	width: 80px;
 }
+.d_line-4 {
+	background-color: #fff;
+	height: 4px;
+	margin: 20px auto;
+	width: 80px;
+}
 /* text */
 .d_head {
 	color: #000;
