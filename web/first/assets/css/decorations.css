@@ -1,0 +1,53 @@
+/* lines */
+.d_line-1 {
+	background-color: #fff;
+	height: 3px;
+	margin: 40px 0;
+	width: 100px;
+}
+.d_line-2 {
+	background-color: #ff862a;
+	height: 2px;
+	margin: 20px 0;
+	width: 80px;
+}
+.d_line-3 {
+	background-color: #ff862a;
+	height: 2px;
+	margin: 20px auto;
+	width: 80px;
+}
+/* text */
+.d_head {
+	color: #000;
+	font-size: 20px;
+	font-weight: 800;
+}
+.d_description {
+	color: #86878b;
+}
+/* icons */
+.i_download {
+	align-items: top;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	margin-right: 4px;
+	width: 50px;
+}
+.i_download::after {
+	background: center center / 20px 20px no-repeat url(../images/upload.svg);
+	background-size: 20px 20px;
+	border: 2px solid #ff862a;
+	border-radius: 40px;
+	content: "";
+	height: 30px;
+	width: 30px;
+}
+/* fonts */
+font:not(.suffix) {
+	margin: 0.25rem;
+}
+.w400 {
+	font-weight: 400;
+}
